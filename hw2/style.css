@@ -1,0 +1,50 @@
+.header {
+    width: 500px;
+    height: 425px;
+    border: 5px solid blueviolet;
+    padding: 10px;
+    background: darkgray;
+    color: tomato;
+    box-sizing: border-box;
+    margin: 25px;
+    overflow: hidden;
+}
+/*.image{*/
+/*    width: 300px;}*/
+.biography {
+    width: 500px;
+    height: 400px;
+    padding: 5px 10px;
+    background: silver;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 30px;
+}
+
+.biography>p{
+    color: darkviolet;
+}
+#target{
+    border-top: 10px solid red;
+    border-right: 5px aquamarine dashed;
+    border-left: 6px aqua double;
+    border-bottom: 7px dotted brown;
+}
+.role {
+    width: 500px;
+    height: 400px;
+    padding: 5px 10px;
+    background: silver;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+.father {
+    height: 700px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
